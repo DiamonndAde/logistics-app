@@ -15,7 +15,7 @@ const NavBar = () => {
           <button className="text-xl font-extrabold">Ship 'n Drive</button>
         </Link>
         <button className="font-bold">Services</button>
-        <button className="font-bold">Trackings</button>
+        <button className="font-bold">Tracking</button>
         <button className="font-bold">Locations</button>
       </div>
       <div className="flex w-1/3 gap-5 justify-center">
