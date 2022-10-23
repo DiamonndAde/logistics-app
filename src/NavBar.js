@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className="w-full flex p-5">
-      <div className="flex gap-10 items-center w-2/3">
+    <div className="w-full flex py-3 px-16 justify-between">
+      <div className="flex gap-10 items-center">
         <Link className="flex items-center gap-px" to="/">
           <ElectricMopedOutlinedIcon
             fontSize="large"
@@ -14,16 +14,16 @@ const NavBar = () => {
           />
           <button className="text-xl font-extrabold">Ship 'n Drive</button>
         </Link>
-        <button className="font-bold">Services</button>
-        <button className="font-bold">Tracking</button>
-        <button className="font-bold">Locations</button>
+        <button className="font-bold hover:text-orange-500 transition-all ease-out duration-500">Services</button>
+        <button className="font-bold hover:text-orange-500 transition-all ease-out duration-500">Tracking</button>
+        <button className="font-bold hover:text-orange-500 transition-all ease-out duration-500">Locations</button>
       </div>
-      <div className="flex w-1/3 gap-5 justify-center">
+      <div className="flex gap-5 justify-end">
         <button className="text-black font-bold">
-          <Link to="/login">Login</Link>
+          <Link to="/login" className="hover:text-orange-500 transition-all ease-out duration-500">Login</Link>
         </button>
-        <button className="bg-black hover:bg-orange-500 transition-all ease-out duration-500 text-white rounded-md px-2">
-          <Link to="/">Sign Up</Link>
+        <button className="bg-black hover:bg-orange-500 transition-all ease-out duration-500 text-white rounded-md px-3 py-3">
+          <Link to="/HomeSignUp">Sign Up</Link>
         </button>
       </div>
     </div>
