@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ShipperSignup from "./ShipperSignup";
 import RiderSignup from "./RiderSignup";
 import RiderLogin from "./Login";
+import Home from "./Home";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,6 +19,7 @@ root.render(
         <Route path="/shipper-signup" element={<ShipperSignup />} />
         <Route path="/rider-signup" element={<RiderSignup />} />
         <Route path="/login" element={<RiderLogin />} />
+        <Route path="/Home" element={<Home />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
