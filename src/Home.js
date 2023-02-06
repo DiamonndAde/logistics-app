@@ -1,6 +1,6 @@
 import React from "react";
-import user from "./images/users.png";
-import rider from "./images/rider.png";
+import user from "./assets/images/users.png";
+import rider from "./assets/images/rider.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
