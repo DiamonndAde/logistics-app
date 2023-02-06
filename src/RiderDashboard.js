@@ -4,7 +4,7 @@ import { styles } from './constants/styles';
 const RiderDashboard = () => {
     const [activeComponent, setActiveComponent] = useState([]);
     const [isNavOpen, setIsNavOpen] = useState(false);
-    const [storeName, setStoreName] = useState("");
+    const [storeName, setStoreName] = useState("David Long");
     const [storeLogo, setStoreLogo] = useState("");
 
     function showActiveComponent(e, comp) {
